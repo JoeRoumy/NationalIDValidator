@@ -57,7 +57,7 @@ var CRUDFunctions =
       }
     }
     // send response
-    res.send(ret)
+    res.status(200).send(ret)
   }
 }
 
