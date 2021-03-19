@@ -10,4 +10,6 @@ app.use(router);
 
 //start
 var port = 10000
-app.listen(port,function(){console.log("Up on port "+port+"..");})
+var server = app.listen(port,function(){console.log("Up on port "+port+"..");})
+
+module.exports = server

@@ -1,6 +1,6 @@
 var consts = require('../consts');
 
-var nationalIDRegExp = new RegExp('(?<birthCentury>[2-9])(?<birthYear>[0-9]{2})(?<birthMonth>0[1-9]|1[0-2])(?<birthDay>0[1-9]|[12][0-9]|3[01])(?<birthCity>0[1-4]|[1-2][1-9]|3[1-5]|88)(?<serialNumber>[0-9]{3})(?<gender>[0-9])(?<checksum>[0-9])');
+var nationalIDRegExp = new RegExp('(?<birthCentury>[2-9])(?<birthYear>[0-9]{2})(?<birthMonth>0[1-9]|1[0-2])(?<birthDay>0[1-9]|[12][0-9]|3[01])(?<birthCity>0[1-4]|[1-2][1-9]|3[1-5]|88)(?<serialNumber>[0-9]{3})(?<gender>[1-9])(?<checksum>[0-9])');
 
 class NationalID {
   
